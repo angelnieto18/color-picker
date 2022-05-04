@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Color picker</title>
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="shortcut icon"
+      href="./assets/javascript.ico"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <div class="app-div">
+      <h2>Paleta de colores</h2>
+      <div class="salida" id="salida">#FFFFFF</div>
+      <input type="color" id="color" value="#ffffff" />
+      <button class="button" id="button">Guardar color</button>
+    </div>
+    <div id="list-div" class="list-div">
+      <div class="title-div"><h2>Historial</h2></div>
+      <ul id="list" class="list"></ul>
+    </div>
+    <script src="./js/app.bundle.js"></script>
+  </body>
+</html>
